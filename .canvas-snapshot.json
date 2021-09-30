@@ -1,0 +1,456 @@
+{
+  "quiz": {
+    "id": 19081,
+    "title": "Enumerators Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19081",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19081?force_user=1&persist_headless=1",
+    "description": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.\\n\\nIf you don't know the answer to a question, please do not guess. Instead, select \\&quot;I don't know\\&quot;. It's OK not to know everything and to admit when we're unsure.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:33667,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16573901},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;18&quot;:1}\">It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.<br><br>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>\n<h2>Objectives</h2>\n<p>Become familiar with using common iterators introduced in the previous lesson.</p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 7,
+    "points_possible": 7.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_19081"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19081/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19081/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19081/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19081/submission_versions",
+    "assignment_id": 129339,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6376,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "ga2d2711e0d49614336d117ababbb1f47",
+    "question_types": [
+      "multiple_choice_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 19081,
+      "id": 120475,
+      "quiz_group_id": null,
+      "assessment_question_id": 135344,
+      "position": null,
+      "question_name": "Using .each",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Let's try out the enumerator methods we just learned. Refer back to the previous lesson to help you pass this challenge. Below, we have a variable,<span>&nbsp;</span><code>lunch_menu</code>, set equal to an array of lunch menu items.</p>\n<p>Since you're super hungry and super excited about lunch, use the<span>&nbsp;</span><code>.each</code><span>&nbsp;</span>method to enumerate over the array and append an<span>&nbsp;</span><code>\"!\"</code><span>&nbsp;</span>(\"exclamation mark\") to each menu item. You can use the<span>&nbsp;</span><code>&lt;&lt;</code><span>&nbsp;</span>(\"shovel operator\") on each menu item string to add an<span>&nbsp;</span><code>\"!\"</code><span>&nbsp;</span>like this:<span>&nbsp;</span><code>\"pizza\" &lt;&lt; \"!\"</code>.</p>\n<pre><span class=\"pl-s1\">lunch_menu</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-s\">\"pizza\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"sandwich\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"sushi\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"soup\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"salad\"</span><span class=\"pl-kos\">]</span></pre>\n<p><span>Which piece of code will achieve the desired result?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 6172,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">lunch_menu</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">each</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">lunch_item</span>|\n  <span class=\"pl-s1\">lunch_item</span> &lt;&lt; <span class=\"pl-s\">\"!\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3974,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">lunch_menu</span> &lt;&lt; <span class=\"pl-s\">\"!\"</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1294,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">lunch_menu</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">each</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">lunch_item</span>|\n  <span class=\"pl-s\">\"<span class=\"pl-s1\"><span class=\"pl-kos\">#{</span>lunch_item<span class=\"pl-kos\">}</span></span>!\"</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 4674,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">lunch_menu</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">each</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">lunch_item</span>|</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19081,
+      "id": 120476,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 2,
+      "question_name": "Using .collect",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Below we have a variable,&nbsp;</span><code>nums</code><span>, set equal to an array of numbers. Enumerate over the array with the&nbsp;</span><code>.collect</code><span>&nbsp;method and return a new array of the squares of those numbers.</span></p>\n<pre><span class=\"pl-s1\">nums</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">1</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">2</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">3</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">4</span><span class=\"pl-kos\">]</span></pre>\n<p>Which piece of code will achieve the desired result?</p>\n<p>&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_3407",
+          "id": 3407,
+          "text": "nums.collect { |n| n * n }",
+          "html": "<pre><span class=\"pl-en\">nums</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">collect</span> <span class=\"pl-kos\">{</span> |<span class=\"pl-s1\">n</span>| <span class=\"pl-s1\">n</span> * <span class=\"pl-s1\">n</span> <span class=\"pl-kos\">}</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_4106",
+          "id": 4106,
+          "text": "nums.collect do |n| n + n end",
+          "html": "<pre><span class=\"pl-en\">nums</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">collect</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">n</span>|\n  <span class=\"pl-s1\">n</span> + <span class=\"pl-s1\">n</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_8663",
+          "id": 8663,
+          "text": "nums.collect { |n| nn }",
+          "html": "<pre><span class=\"pl-en\">nums</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">collect</span> <span class=\"pl-kos\">{</span> |<span class=\"pl-s1\">n</span>| <span class=\"pl-en\">nn</span> <span class=\"pl-kos\">}</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_5847",
+          "id": 5847,
+          "text": "nums.collect do |n| n end",
+          "html": "<pre><span class=\"pl-en\">nums</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">collect</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">n</span>|\n  <span class=\"pl-s1\">n</span>\n<span class=\"pl-k\">end</span></pre>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19081,
+      "id": 120477,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 3,
+      "question_name": "Using .select",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Below we have a variable,&nbsp;</span><code>odds_and_evens</code><span>, set equal to an array of numbers. Use the&nbsp;</span><code>.select</code><span>&nbsp;enumerator to iterate over the array and return any even numbers. This requires checking if a number is even. If you're unsure how to do that, reference the Ruby Documentation or try a google search!</span></p>\n<pre><span class=\"pl-s1\">odds_and_evens</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">1</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">3</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">2</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">18</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">5</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">10</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">24</span><span class=\"pl-kos\">]</span></pre>\n<p>Which piece of code will achieve the desired result?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_5702",
+          "id": 5702,
+          "text": "odds_and_evens.select do |n| n.even? end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">select</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">n</span>|\n  <span class=\"pl-s1\">n</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">even?</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_5510",
+          "id": 5510,
+          "text": "odds_and_evens.select do |n| n % 2 end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">select</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">n</span>|\n  <span class=\"pl-s1\">n</span> % <span class=\"pl-c1\">2</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_7833",
+          "id": 7833,
+          "text": "odds_and_evens.select do |n| n / 2 end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">select</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">n</span>|\n  <span class=\"pl-s1\">n</span> / <span class=\"pl-c1\">2</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_7382",
+          "id": 7382,
+          "text": "odds_and_evens.select do |n| n + 2 end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">select</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">n</span>|\n  <span class=\"pl-s1\">n</span> + <span class=\"pl-c1\">2</span>\n<span class=\"pl-k\">end</span></pre>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19081,
+      "id": 120478,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 4,
+      "question_name": "Using .find",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Below we once again have a variable,&nbsp;</span><code>odds_and_evens</code><span>, set equal to an array of numbers. This time, use the&nbsp;</span><code>.find</code><span>&nbsp;method to iterate over the array and return only the&nbsp;</span><em>first</em><span>&nbsp;array element that is&nbsp;</span><em>odd</em><span>.</span></p>\n<pre><span class=\"pl-s1\">odds_and_evens</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">2</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">3</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">2</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">18</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">5</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">10</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">24</span><span class=\"pl-kos\">]</span></pre>\n<p><span>Which piece of code will achieve the desired result?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_4143",
+          "id": 4143,
+          "text": "odds_and_evens.find do |num| num.odd? end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">find</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">num</span>|\n  <span class=\"pl-s1\">num</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">odd?</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_671",
+          "id": 671,
+          "text": "odds_and_evens.find do |num| num.even? end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">find</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">num</span>|\n  <span class=\"pl-s1\">num</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">even?</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_3623",
+          "id": 3623,
+          "text": "odds_and_evens.find do |num| num / 2 end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">find</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">num</span>|\n  <span class=\"pl-s1\">num</span> / <span class=\"pl-c1\">2</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_3095",
+          "id": 3095,
+          "text": "odds_and_evens.find do |num| num end",
+          "html": "<pre><span class=\"pl-en\">odds_and_evens</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">find</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">num</span>|\n  <span class=\"pl-s1\">num</span>\n<span class=\"pl-k\">end</span></pre>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19081,
+      "id": 120479,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 5,
+      "question_name": "Using delete_if",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Below we have a variable,&nbsp;</span><code>cats_and_dogs</code><span>, set equal to an array of strings that are either a&nbsp;</span><code>\"cat\"</code><span>&nbsp;or a&nbsp;</span><code>\"dog\"</code><span>. We all know that cats and dogs don't get along. Iterate over the array and delete the elements that represent dogs.</span></p>\n<pre><span class=\"pl-s1\">cats_and_dogs</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-s\">\"cat\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"cat\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"dog\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"cat\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"dog\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"dog\"</span><span class=\"pl-kos\">]</span></pre>\n<p>Which piece of code will achieve the desired result?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_3309",
+          "id": 3309,
+          "text": "cats_and_dogs.delete_if do |pet| pet == \"dog\" end",
+          "html": "<pre><span class=\"pl-en\">cats_and_dogs</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">delete_if</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">pet</span>|\n  <span class=\"pl-s1\">pet</span> == <span class=\"pl-s\">\"dog\"</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_3155",
+          "id": 3155,
+          "text": "cats_and_dogs.delete_if do |pet| pet == \"cat\" end",
+          "html": "<pre><span class=\"pl-en\">cats_and_dogs</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">delete_if</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">pet</span>|\n  <span class=\"pl-s1\">pet</span> == <span class=\"pl-s\">\"cat\"</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_3830",
+          "id": 3830,
+          "text": "cats_and_dogs.delete_if do |pet| pet == pet end",
+          "html": "<pre><span class=\"pl-en\">cats_and_dogs</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">delete_if</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">pet</span>|\n  <span class=\"pl-s1\">pet</span> == <span class=\"pl-s1\">pet</span>\n<span class=\"pl-k\">end</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_4015",
+          "id": 4015,
+          "text": "cats_and_dogs.delete_if do |pet| \"dog\" end",
+          "html": "<pre><span class=\"pl-en\">cats_and_dogs</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">delete_if</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">pet</span>|\n  <span class=\"pl-s\">\"dog\"</span>\n<span class=\"pl-k\">end</span></pre>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19081,
+      "id": 120480,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 6,
+      "question_name": "Using include?",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Below we have a variable,&nbsp;</span><code>famous_cats</code><span>, set equal to an array of famous cats. Use the&nbsp;</span><code>.include?</code><span>&nbsp;method to check and see if the array includes the string&nbsp;</span><code>\"Maru\"</code><span>.</span></p>\n<pre><span class=\"pl-s1\">famous_cats</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-s\">\"Maru\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"Lil Bub\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"Grumpy Cat\"</span><span class=\"pl-kos\">]</span></pre>\n<p>Which piece of code will achieve the desired result?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_4358",
+          "id": 4358,
+          "text": "famous_cats.include?(\"Maru\")",
+          "html": "<pre><span class=\"pl-en\">famous_cats</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">include?</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"Maru\"</span><span class=\"pl-kos\">)</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_11",
+          "id": 11,
+          "text": "famous_cats.include?",
+          "html": "<pre><span class=\"pl-en\">famous_cats</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">include?</span></pre>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_9584",
+          "id": 9584,
+          "text": "famous_cats.include?(true)",
+          "html": "<pre><span class=\"pl-en\">famous_cats</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">include?</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">true</span><span class=\"pl-kos\">)</span></pre>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19081,
+      "id": 120481,
+      "quiz_group_id": null,
+      "assessment_question_id": 135343,
+      "position": null,
+      "question_name": "Using any?",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Below we have a variable,&nbsp;</span><code>quiet_and_loud</code><span>, that is set equal to an array of strings. Use the&nbsp;</span><code>.any?</code><span>&nbsp;method to iterate over the array to determine if any of the words contained there are loud (upcased).</span></p>\n<pre><span class=\"pl-s1\">quiet_and_loud</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-s\">\"hi\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"HI\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"shhh\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"WHAT?!\"</span><span class=\"pl-kos\">]</span></pre>\n<p><span>Which piece of code will achieve the desired result?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 7708,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">quiet_and_loud</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">any?</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">word</span>|\n  <span class=\"pl-s1\">word</span> == <span class=\"pl-s1\">word</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">upcase</span>\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 8569,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">quiet_and_loud</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">any?</span> <span class=\"pl-kos\">{</span> |<span class=\"pl-s1\">w</span>| <span class=\"pl-s1\">w</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">upcase == true</span> <span class=\"pl-kos\">}</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 3126,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">quiet_and_loud</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">any?</span> <span class=\"pl-kos\">{</span> |<span class=\"pl-s1\">w</span>| <span class=\"pl-s1\">w</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">upcase?</span> <span class=\"pl-kos\">}</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 5012,
+          "text": "",
+          "html": "<pre><span class=\"pl-en\">quiet_and_loud</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">any?</span> <span class=\"pl-k\">do</span> |<span class=\"pl-s1\">w</span>|\n  upcase? <br><span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
